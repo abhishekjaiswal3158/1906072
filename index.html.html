@@ -1,0 +1,151 @@
+<!-- mehwishn.pg19.cs@nitp.ac.in-->
+<html>
+
+<head>
+    <title>REGISTRATION FORM</title>
+    <style type="text/css">
+        body {
+            padding: 0px;
+            background-image: linear-gradient(to right, yellow, red);
+            margin: 0px;
+        }
+        
+        div {
+            border: black 5px solid;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <i> <u> <h1 style="text-align: center">REGISTRATION</h1></u></i>
+    <form>
+        <div class="A">
+
+            <h1><u>PERSONAL INFORMATION</u></h1>
+
+            <b><label for="FORM_NUMBER">FORM NUMBER:</label></b>
+            <input type="text" name="FORM_NUMBER"><br><br>
+            <b> <label for="name">NAME:</label></b>
+            <input type="text" name="name"><br><br>
+            <b><label for="roll">ROLL_NUMBER:</label></b>
+            <input type="text" name="roll"><br><br>
+            <b> <label for="gender">GERDER:</label></b>
+            <input type="radio" name="gender" id="gender" value="male">
+            <label for="male">MALE</label>
+            <input type="radio" name="gender" id="gender" value="female">
+            <label for="male">FEMALE</label><br><br><br>
+            <b> <label for="date">DOB:</label></b>
+            <input type="date" name="date"><br><br>
+            <b> <label for="pwd">PWD:</label></b>
+            <input type="radio" id="pwd" name="pwd" value="YES">
+            <label for="YES">YES</label>
+            <input type="radio" id="pwd" name="pwd" value="NO">
+            <label for="NO">NO</label><br><br>
+            <b><label for="cat" id="cat">CATEGORY:</label></b>
+            <select>
+        <option>SC</option>
+        <option>OBC</option>
+        <option>GENERAL</option>
+        <option>ST</option>
+        </select>
+            <br><br>
+            <b>  <label for="ADD">ADDRESS:</label></b>
+            <br>
+            <textarea type="text" name="ADD" rows="4" cols="50"></textarea>
+            <br><br>
+            <b>  <label for="PIN CODE">PIN CODE:</label></b>
+            <input type="number" name="PIN CODE "><br><br>
+            <b> <label for="ph1">PHONE OF STUDENT:</label></b>
+            <input type="number" name="ph1 "><br><br>
+            <b> <label for="ph2">PHONE OF GUARDIAN:</label></b>
+            <input type="number" name=" ph2"><br><br>
+
+        </div>
+
+        <div class="B">
+
+            <h1><u>ACADEMIC INFORMATION</u></h1>
+
+            <b> <label for="course" id="course">COURSE:</label></b>
+            <select>
+        <option>B.tech</option>
+        <option>PG</option>
+        <option>PHD</option>
+      
+        </select>
+            <br><br>
+
+            <b>  <label for="branch" id="branch">BRANCH:</label></b>
+            <select>
+        <option>CSE</option>
+        <option>MAC</option>
+        <option>ECE</option>
+        <option>CE</option>
+        </select>
+            <br><br>
+            <b> <label for="sem" id="sem">SEMESTER:</label></b>
+            <select>
+        <option>1st</option>
+        <option>2nd</option>
+        <option>3rd</option>
+        <option>4th</option>
+        </select>
+            <br><br>
+            <b> <label for="rank">AIR:</label></b>
+            <input type="number" name="rank"><br><br>
+            <b> <label for="crank">CATEGORY RANK:</label></b>
+            <input type="number" name="crank"><br><br>
+            <b> <label for="cgpa">CGPA:</label></b>
+            <input type="number" name="cgpa"><br><br>
+            <b> <label for="bl">BACKLOG:</label></b>
+            <input type="radio" id="backlog" name="bl" value="YES">
+            <label for="YES">YES</label>
+            <input type="radio" id="backlog" name="bl" value="NO">
+            <label for="NO">NO</label><br><br>
+            <b> <label for="hostel">HOSTEL:</label></b>
+            <input type="radio" id="hostel" name="hostel" value="YES">
+            <label for="YES">YES</label>
+            <input type="radio" id="hostel" name="hostel" value="NO">
+            <label for="NO">NO</label><br><br>
+            <b> <label for="nameOfHostel">NAME OF HOSTEL:</label></b>
+            <input type="text" name="nameOfHostel"><br><br>
+            <b> <label for="roomNo">ROOM NO:</label></b>
+            <input type="number" name="roomNo">
+
+        </div>
+
+        <div class="C">
+
+            <h1><u>ACCOUNT DETAIL FOR REFFUNDING PROCESS</u></h1>
+
+
+            <b>  <label for="accountHolder">ACCOUNT HOLDER:</label></b>
+            <input type="taxt" name="accountHolder">
+            <br><br>
+            <b> <label for="account">ACCOUNT NUMBER:</label></b>
+            <input type="number" name="account">
+            <br><br>
+            <b> <label for="code">IFSC CODE:</label></b>
+            <input type="number" name="code">
+            <br><br>
+            <b> <label for="bank">BANK NAME:</label></b>
+            <input type="number" name="bank">
+            <br><br>
+            <b> <label for="bank_branch">BANK BRANCH:</label></b>
+            <input type="number" name="bank_branch">
+            <br><br>
+
+        </div>
+        <br>
+        <center> <input type="submit" value="Submit"></center>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
